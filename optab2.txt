@@ -1,0 +1,19 @@
+ADD   1   0FFF
+AND   1   23FF
+SUB   1   1BFF
+MOV   1   2FFF
+OR    1   2BFF
+MUL   1   9FFF
+ADIW  2   96FF
+LDI   3   EFFF
+CPI   3   3FFF
+LD    0   91FC
+ST    0   93FC
+INC   0   95F3
+DEC   0   95FA
+COM   0   95F0
+BRNE  4   F7F9
+BREQ  4   F3F9
+LDS   5   91F0FFFF
+STS   5   93F0FFFF
+.ORG  

@@ -1,0 +1,5 @@
+18	CONST
+1a	COPY
+1f	BACK
+2d	VAR
+8f	DOWN

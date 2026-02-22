@@ -1,0 +1,22 @@
+START .ORG  0010
+       LDI   R26     0X00
+       LDI   R29     0X05
+       LDI   R28     0X00
+       LDI   R20     0X0A
+CONST  .DB   COPY
+COPY   BYTE. 2
+       LDS   R24     0X0500
+BACK   LD    R23     X
+       ST    X       R24
+       DEC   R20
+       AND   R26     R20
+       BRNE  DOWN
+       MOV   R28     R29
+       ADD   R18     R19
+VAR    .DW   45
+       MUL   R23     R24
+       SUB   R1      R2
+       INC   R19
+       COM   R22
+DOWN   LDI   R27     0X04
+       .EXIT

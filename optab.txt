@@ -1,0 +1,15 @@
+LDI   
+COM   
+MOV   
+SUB
+INC  
+LD             
+BREQ
+BRNE
+ADD
+DEC
+ST
+MUL
+AND
+LDS
+STS
